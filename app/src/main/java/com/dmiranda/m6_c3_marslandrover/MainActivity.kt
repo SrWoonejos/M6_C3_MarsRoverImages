@@ -23,10 +23,10 @@ class MainActivity() : AppCompatActivity(), CoroutineScope {
     override val coroutineContext: CoroutineContext = Dispatchers.Main + job
 
     private val urlImageMarsRover: Array<String> = arrayOf(
-        "https://mars.nasa.gov/msl-raw-images/msss/01000/mcam/1000MR0044630280503588E02_DXXX.jpg",
-        "https://mars.nasa.gov/msl-raw-images/msss/01000/mcam/1000MR0044631220503682E01_DXXX.jpg",
-        "https://mars.nasa.gov/msl-raw-images/msss/01000/mcam/1000MR0044631290503689E01_DXXX.jpg",
-        "https://mars.nasa.gov/msl-raw-images/msss/01000/mcam/1000MR0044630010503561E01_DXXX.jpg"
+        "http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.JPG",
+        "http://mars.jpl.nasa.gov/msl-raw-images/msss/01000/mcam/1000MR0044631300503690E01_DXXX.jpg",
+        "http://mars.jpl.nasa.gov/msl-raw-images/msss/01000/mcam/1000ML0044631270305224E03_DXXX.jpg",
+        "http://mars.jpl.nasa.gov/msl-raw-images/msss/01000/mcam/1000ML0044631230305220E02_DXXX.jpg"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
